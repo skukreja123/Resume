@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
 app.post('/contact', (req, res) => {
     var myData = new Contact(req.body);
     myData.save().then(() => {
-        res.status(200).send("This itme save  in dat base")
+        res.status(200).send("This item saved in the database")
     }).catch(() => {
         res.status(400).send("Item was not saved")
     });
