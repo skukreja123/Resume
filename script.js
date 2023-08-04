@@ -60,7 +60,7 @@ ScrollReveal().reveal('.home-content p ,.about-content p',{origin: 'right'});
 
 // typed js continuously
 var typed = new Typed('#multiple', {
-    strings: ['Full Stack Developer', 'Data Scientist'],
+    strings: ['Full Stack Developer'],
     typeSpeed: 100,
     backSpeed: 50,
     backdelay: 100,
